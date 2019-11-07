@@ -406,3 +406,5 @@ def get_vf_trainable_variables(scope):
 def get_pi_trainable_variables(scope):
     return [v for v in get_trainable_variables(scope) if 'pi' in v.name[len(scope):].split('/')]
 
+#
+#
